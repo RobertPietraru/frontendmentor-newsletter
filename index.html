@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/config.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+
+<body>
+  <main>
+    <div class="background-image-container">
+      <img class="background-image | mobile-only" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+      <img class="background-image | desktop-only" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+    </div>
+    <form class="page email-form">
+      <h1 class="text-background-2 fs-900 fw-bold">Stay updated!</h1>
+      <p class="fs-400">Join 60,000+ product managers receiving mothly updates on</p>
+      <div class="updates">
+        <div>
+          <img src="assets/images/icon-list.svg" alt="">
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div>
+          <img src="assets/images/icon-list.svg" alt="">
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div>
+          <img src="assets/images/icon-list.svg" alt="">
+          <p>And much more!</p>
+        </div>
+      </div>
+      <div>
+        <div class="label-container label-container--error">
+          <label for="email">Email address</label>
+
+        </div>
+        <input class="inputfield" type="text" placeholder="email@company.com" name="Email" id="email">
+      </div>
+      <button class="button" type="button" id="subscribe"> Subscribe to monthly newsletter </button>
+      <div class="marker"></div>
+    </form>
+  </main>
+</body>
+
+</html>
+<script src="index.js"></script>

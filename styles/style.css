@@ -1,0 +1,76 @@
+@import url('config.css');
+
+
+/* styles */
+
+main {
+    background-color: var(--background-color);
+    border-radius: var(--border-radius-800);
+    display: flex;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-500);
+}
+
+.updates {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-400);
+
+}
+
+.updates div {
+    display: flex;
+    gap: var(--s-400);
+}
+
+.updates div img {
+    width: 1.2rem;
+    aspect-ratio: 1;
+}
+@media (max-width: 40em) {
+    main {
+        flex-direction: column;
+    }
+
+    .page {
+        padding: var(--s-500);
+    }
+
+    .background-image {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 40em) {
+    .background-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        background-color: var(--background-color-2);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    main {
+        margin: auto;
+        height: auto;
+        max-width: 60rem;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: var(--s-450);
+        padding-left: 0;
+    }
+
+    .page {
+        margin: var(--s-600) var(--s-700);
+    }
+}
