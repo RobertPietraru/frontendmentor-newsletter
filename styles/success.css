@@ -21,7 +21,6 @@ p {
         align-items: start;
         gap: var(--s-500);
     }
-
 }
 
 @media (min-width: 40em) {

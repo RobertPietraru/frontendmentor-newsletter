@@ -45,7 +45,5 @@ button.addEventListener("click", function () {
         addError("Email is invalid")
         return;
     }
-    window.location = "pages/success.html"
-
-
+    window.location = "pages/success.html?email=" + textfield.value;
 });
